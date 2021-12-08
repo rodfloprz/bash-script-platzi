@@ -23,3 +23,7 @@ echo "Posición 3 Arreglo de Cadenas: ${string_array[3]}"
 echo "Posición 3 Arreglo de Rangos: ${range_array[3]}"
 
 # Añadir y eliminar valores en un arreglo
+number_array[2]=20
+unset number_array[0]
+echo "Arrelgo de números: ${number_array[*]}"
+echo "Tamaño de arreaglo de números:  ${#number_array[*]}"
